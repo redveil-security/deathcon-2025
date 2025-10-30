@@ -31,7 +31,7 @@ As mentioned in the slides, the only pitfall of deploying files on the fly like 
 In my opinion, this is a dead give away with deploying honeypots and will likely raise suspicions among careful adversaries. To alleviate this, we can simply add the following line to the DockerFile:
 `RUN touch -a -m -t 201512180130.09 /opt/scripts/logmein.sh`
 
-This will change the modification date to be `201512180130.09` which is December 18, 2025. Tweaking various configurations of the DockerFile that's used to deploy the SSH containers is a huge part of deploying a realistic, believable environment that'll help you gain intel on an adversaries' TTPs as well as keeping them busy within the fake environment.
+This will change the modification date to be `201512180130.09` which is December 18, 2015. Tweaking various configurations of the DockerFile that's used to deploy the SSH containers is a huge part of deploying a realistic, believable environment that'll help you gain intel on an adversaries' TTPs as well as keeping them busy within the fake environment.
 ## Tasks
 Come up with a custom DockerFile that you can deploy using `sshmimik`, whether it be as simple as copying a custom Bash script to the honeypot or installing custom packages to give the attacker common Living off the Land (LOL) tools they can abuse to help you learn more about their TTPs.
 
