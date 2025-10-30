@@ -33,6 +33,12 @@ After it's installed, ensure that the Docker service is running: `sudo systemctl
 
 *Note: If you skip these steps, `sshmimik` will not function properly upon SSH logins. It will error out each time you attempt to login to the honeypot with `shell request failed on channel 0`*
 
+Let's generate our SSH keys:
+
+`ssh-keygen -t rsa -b 2048 -f ssh_host_key_rsa`
+
+Ensure that these are stored in the same directory as `sshmimik`, otherwise it won't run properly.
+
 Now that we've got everything installed, let's run it! For now, we'll use it in its vanilla state and in the next lab, we'll customize its deployment using DockerFiles.
 
 `sudo python3 serve.py -p <port> -l <where to store log files>`
