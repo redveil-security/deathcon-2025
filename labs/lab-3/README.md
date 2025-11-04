@@ -1,4 +1,8 @@
 # Lab 3 - Investigating Lab Scenario
+## Prerequisites
+Before starting in this lab, you should import the necessary virtual machines which are available [here](https://drive.google.com/file/d/14I4InbVUhiAAeYTR-jW9cjbH59U1vjVH/view?usp=sharing)
+* Once you start up the machines, the necessary service should start
+
 ## Lab Scenario
 Your network has been compromised and attackers have breached several of your internet-accessible networking devices and logs have been wiped clean. Since the devices primarily stored data within the RAM, there were no artifacts that could be easily captured since the adversary power cycled the devices. Luckily, you deployed `sshmimik` on one of the compromised devices and logs were forwarded to your logging instance. Your job, analyze the captured log file from the compromised device and figure out what the attackers did. 
 
