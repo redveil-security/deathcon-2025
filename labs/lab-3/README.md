@@ -18,9 +18,9 @@ Your network has been compromised and attackers have breached several of your in
 
 This scenario will be broken down into various tasks to analyze the attack chain and learn more about the attacker's infrastructure and their capabilities.
 
-The log file to analyze is `ssh.json`
+The log file to analyze is `ssh.json`. You can also query it on the Splunk instance by using the `sshmimik` index.
 # Task 1: Find the Persistence
-*Task*: Write a query that'll find the most ran command within the logged commands file. This query can be written using Splunk or Bash-Fu & using `jq` to parse the JSON file
+*Task*: Write a query that'll find the most ran command within the logged commands file. This query can be written using Splunk (`index=sshmimik`) or Bash-Fu & using `jq` to parse the JSON file
 # Task 2: Unraveling Communication
 *Task*: Decode the most ran command and take note of the way that the victim host communicates with the attacker's infrastructure. Answer the following about the communication:
 - Q: What is the filename that the beacon is reaching out to download?
